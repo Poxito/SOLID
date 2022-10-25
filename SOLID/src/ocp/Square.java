@@ -14,4 +14,8 @@ public class Square extends Figure{
 	public void draw() {
 		System.out.println("Square " + x + ", " + y + ", " + l + ", " + z);
 	}
+	
+	public String getArea() {
+		return "Square area = " + (float) (l*z);
+	}
 }

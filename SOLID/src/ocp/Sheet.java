@@ -43,4 +43,13 @@ public class Sheet {
 		}
 		
 	}
+	
+	public void getAllAreas() {
+		Enumeration<Figure> efigures = figures.elements();
+		Figure f;
+		while (efigures.hasMoreElements()){
+			f = efigures.nextElement();
+			System.out.println(f.getArea());
+		}
+	}
 }

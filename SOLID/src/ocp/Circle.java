@@ -13,4 +13,8 @@ public class Circle extends Figure{
 	public void draw() {
 		System.out.println("Circle " + x + ", " + y + ", " + z);
 	}
+	
+	public String getArea() {
+		return "Circle area = " + (float) (Math.PI * z*z);
+	}
 }
